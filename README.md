@@ -1,15 +1,18 @@
-# Requests, JSON, and basic NLP with spaCy
+# Project: Requests, JSON, and basic NLP with spaCy
+```
+🎵 Lyrics Sentiment Analysis
+This project utilizes the lyrics.ovh public API to fetch song lyrics, saves them to JSON files, and performs sentiment analysis using spaCyTextBlob. The sentiment analysis determines whether the lyrics have a positive or negative connotation, providing insights into the overall tone of popular songs.
 
-Complete the tasks in the Python Notebook in this repository.
-To be submitted for credit, all changes must be committed and pushed to this repository (do not create your own repository unless instructed to on the course website).
+🚀 Features
+Fetch song lyrics from the lyrics.ovh API.
+Store lyrics in JSON files for offline analysis.
+Perform sentiment analysis using spaCyTextBlob.
+Analyze and interpret the sentiment polarity of different songs.
+```
+## Commands
+```
+git add .
+git push
+git pull
+```
 
-## Rubric
-
-* (Question 1) Lyrics printed: 1 pt
-* (Question 1) File created and submitted with notebook: 1 pt
-* (Question 2) Correct polarity reported: 1 pt
-* (Question 2) Question answered thoughtfully: 1 pt
-* (Question 3) Function defined as specified: 1 pt
-* (Question 3) Song lyrics retrieved and stored in separate files (0.5 pts/song): 2 pts
-* (Question 4) Polarity scores printed (with appropriate label containing song title, .25 pts/song): 1 pt
-* (Question 4) Questions answered thoughtfully: 2 pts
